@@ -22,6 +22,8 @@ nav ul{
 }
 .main-nav .logo {
     background: white;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .main-nav{
@@ -37,8 +39,10 @@ nav ul{
 
 .main-img{
     background-image: url(../kadaiImage/mainbg.png) ;
+    background-repeat: no-repeat;
     height:500px;
-    width: 100%;
+    width: 90%;
+    margin-left: 90px;
 }
 
 .main-img h1{
@@ -53,4 +57,42 @@ nav ul{
     text-align: center;
     font-size: 30px;
     color: white;
+}
+
+/***BODY***/
+
+/*COMMON CONFIG*/
+h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.j-title{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/*ABOUT*/
+.about{
+    background-color: rgba(199, 194, 194, 0.589);
+    margin-left: 90px;
+}
+
+.about p{
+    text-align: center;
+    margin-top:30px ;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.gallery ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
 }
