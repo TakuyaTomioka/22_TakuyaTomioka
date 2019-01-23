@@ -7,7 +7,7 @@
     <title>Welcome to Cheese ACADEMY TOKYO</title>
     <meta name="desctiption" content="チーズの教養を身につけ世に広げる学問の都">
     <!-- cssファイルの読み込み -->
-    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <!-- Bootstrap4の適用 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -17,20 +17,34 @@
     <!-- ヘッダー -->
     <header>
         <!-- ナビゲーションバー -->
-        <nav>
-            <ul class="main-nav">
-                <li><a href="#" class="logo"><img src="kadaiImage/header_logo.png" alt="Logo"></a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#course">COURSE</a></li>
-                <li><a href="#news">NEWS</a></li>
-                <li><a href="#access">ACCESS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+        <nav class="navbar navbar-expand-lg bg-warning navbar-light justify-content-center">
+            <!-- ロゴ -->
+            <a class="navbar-brand" href="#">
+                <img class="end" src="kadaiImage/header_logo.png" alt="logo" style="width:200px; height: 50px;">
+            </a>
+            
+            <!-- リンク -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#course">COURSE</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#news">NEWS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#access">ACCESS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
             </ul>
         </nav>
         <!-- メインテーマ -->
-        <div class="main-img">
-            <h1>セカイを変えるチーズを作ろう</h1>
-            <p>チーズ職人養成学校「チーズアカデミーTOKYO」</p>
+        <div class="main-visual text-center">
+            <h1 class="main-text text-center">セカイを変えるチーズを作ろう</h1>
         </div>
     </header>
     <!-- コンテンツ概要 -->
@@ -38,11 +52,11 @@
         <div class="about">
             <h2>About</h2>
             <h3 class="j-title">チーズアカデミーについて</h3>
-            <p>チーズアカデミーは、チーズ職人養成学校です。</p>
-            <p>チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。<br>
+            <p class="text-center">チーズアカデミーは、チーズ職人養成学校です。</p>
+            <p class="text-center">チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。<br>
             そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。</p>
-            <p>そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</p>
-            <p>卒業後、チーズ自給自足のバックアップはもちろんのこと、<br>
+            <p class="text-center">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</p>
+            <p class="text-center">卒業後、チーズ自給自足のバックアップはもちろんのこと、<br>
                     チーズ職人への就職・転職もサポートします。</p>
 
         </div>
@@ -114,6 +128,8 @@
                     チーズだけをふんだんに使用した話題のピザ屋<br>
                     「Kosuge Pizza」が渋谷でオープンしました！</p>
             </div>
+
+            <a href="#" target="_blank" class="btn">MORE</a>
         </div>
     </section>
     <!-- お問合せフォーム -->
