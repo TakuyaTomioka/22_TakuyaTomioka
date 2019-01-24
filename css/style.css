@@ -177,7 +177,7 @@ h2{
 }
 
 .form_wrapper{
-    width: 560px;
+    width: 640px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -188,9 +188,30 @@ h2{
 }
 
 .form_title{
-    width: 172px;
+    width: 186px;
+    margin: 0 64px 0 0;
+    font-weight: bold;
+    text-align: left;
 }
 
 .form_item{
-    width: 388px;
+    width: 400px;
+    margin: 8px 0;
+}
+
+.submit_arrange{
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+/**************
+    FOOTER
+***************/
+.footer_wrapper{
+    width: 1366px;
+    background-color: #707070;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    color: #fff;
 }
