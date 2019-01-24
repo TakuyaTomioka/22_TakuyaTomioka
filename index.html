@@ -146,30 +146,35 @@
         </div>
     </section>
     <!-- アクセス -->
-    <section id="ACCESS">
-        <h2>Access</h2>
-        <p>会社情報</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3241.4101232851067!2d139.7125179549235!3d35.66690229415201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6KGo5Y-C6YGT!5e0!3m2!1sja!2sjp!4v1548323272171" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <div>
-            <p>学校名</p>
-            <p>チーズアカデミーTOKYO</p>
+    <section id="ACCESS" class="wrapper access_bgc">
+        <h2 class="access_title">Access</h2>
+        <p class="text-center">会社情報</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3241.4101232851067!2d139.7125179549235!3d35.66690229415201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6KGo5Y-C6YGT!5e0!3m2!1sja!2sjp!4v1548323272171" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div>
-            <p>事務所所在地</p>
-            <p>〒107-0061東京都港区北青山3-5-6 青朋ビル2F</p>
+        <div class="place_box">
+            <div class="place">
+                    <p class="place_title">学校名</p>
+                    <p class="place_detail">チーズアカデミーTOKYO</p>
+                </div>
+                <div class="place">
+                    <p class="place_title">事務所所在地</p>
+                    <p class="place_detail">〒107-0061東京都港区北青山3-5-6 青朋ビル2F</p>
+                </div>
+                <div class="place"> 
+                    <p class="place_title">TEL</p>
+                    <p class="place_detail">03-5413-5045</p>
+                </div>
+                <div class="place">
+                    <p class="place_title">FAX</p>
+                    <p class="place_detail">03-5413-5046</p>
+                </div>
+                <div class="place">
+                    <p class="place_title">MAIL</p>
+                    <p class="place_detail place_arrange">dummy@cheeseacademy.tokyo</p>
+                </div>
         </div>
-        <div>
-            <p>TEL</p>
-            <p>03-5413-5045</p>
-        </div>
-        <div>
-            <p>FAX</p>
-            <p>03-5413-5046</p>
-        </div>
-        <div>
-            <p>MAIL</p>
-            <p>dummy@cheeseacademy.tokyo</p>
-        </div>
+        
     </section>
     <!-- お問合せフォーム -->
     <section id=contact>
@@ -186,11 +191,17 @@
                 <dl class="form_inner">
                     <dt class="form_title">名前</dt>
                     <dd class="form_item"><input type="text" name="name"></dd>
+                </dl>
+                <dl class="form_inner">
                     <dt class="form_title">カナ</dt>
                     <dd class="form_item"><input type="text" name="email"></dd>
+                </dl>
+                <dl class="form_inner">
                     <dt class="form_title">メールアドレス</dt>
                     <dd class="form_item"><input type="email" name="" id=""></dd>
-                    <dt class="form_title">チーズアカデミーを知ったきっかけ</dt>
+                </dl>
+                <dl class="form_inner">
+                    <dt class="form_title">チーズアカデミーを<br>知ったきっかけ</dt>
                     <dd class="form_item">
                         <select name="opportunity" id="">
                             <option value="google検索">google検索</option>
@@ -200,6 +211,8 @@
                             <option value="その他">その他</option>
                             </dd>
                         </select>
+                </dl>
+                <dl class="form_inner">
                     <dt class="form_title">志望動機選択肢</dt>
                     <dd class="form_item">
                         <!-- valueで送信する値の指定。labelで文字をクリックしてもOKにする -->
@@ -208,6 +221,8 @@
                         <label for="work"><input type="radio" name="kind" id="work" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</label>
                         <label for="other"><input type="radio" name="kind" id="other" value="チーズの教養を身につけたい">チーズの教養を身につけたい</label>
                     </dd>
+                </dl>
+                <dl class="form_inner">
                     <dt class="form_title">詳細</dt>
                     <dd class="form_item"><textarea name="detail" id="" cols="50" rows="10"></textarea></dd>
                 </dl>

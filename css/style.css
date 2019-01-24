@@ -109,6 +109,8 @@ h2{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /*  COURSE  */
@@ -201,6 +203,48 @@ h2{
     margin: auto;
 }
 
+/* ACCESS */
+
+.access_bgc{
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(223, 221, 221);
+}
+
+.access_title{
+    padding-top: 0px;
+}
+
+.map{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.place_box{
+    width: 600px;
+    margin: auto;
+}
+
+.place{
+    display: flex;
+    justify-content: space-between;
+}
+.place_title{
+    margin: 12.5px 0;
+    margin-left: 50px;
+}
+
+.place_detail{
+    width: 350px;
+    margin: 12.5px 0;
+    text-align: left;
+}
+
+.place_arrange{
+    margin-bottom: 60px;
+}
 
 /*  CONTACT  */
 
@@ -218,7 +262,7 @@ h2{
 }
 
 .form_wrapper{
-    width: 640px;
+    width: 800px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -228,16 +272,13 @@ h2{
     flex-wrap: wrap;
 }
 
-.form_title{
-    width: 186px;
-    margin: 0 64px 0 0;
-    font-weight: bold;
-    text-align: left;
+.form_title{  
+    width: 200px;
+    margin-left: 200px;
 }
 
 .form_item{
-    width: 400px;
-    margin: 8px 0;
+    width: 350px;
 }
 
 .submit_arrange{
