@@ -139,6 +139,8 @@ h2{
 }
 .news_description{
     font-size: 14px;
+    line-height: 30px;
+    text-align: left;
 }
 
 .arrange{
@@ -156,4 +158,39 @@ h2{
     margin-top: 60px;
     margin-bottom: 60px;
     margin: auto;
+}
+
+
+/*  CONTACT  */
+
+.contact_j_arrange{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contact_j_desctiption{
+    margin-bottom: 70px;
+}
+
+.contact_arrange{
+    line-height: 30px;
+}
+
+.form_wrapper{
+    width: 560px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_title{
+    width: 172px;
+}
+
+.form_item{
+    width: 388px;
 }
