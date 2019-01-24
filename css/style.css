@@ -112,6 +112,47 @@ h2{
 }
 
 /*  COURSE  */
+.course_wrapper{
+    width: 100%;
+}
+
+.course_arrange{
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.course_main_visual{
+    display: flex;
+}
+
+.course_main_description{
+    padding-left: 50px;
+    margin: 0;
+    padding-top:120px;
+    padding-bottom:120px;
+    width: 100%;
+    background-color: rgb(223, 221, 221);
+}
+
+.course_main_description_left{
+    text-align: left;
+    margin: 0;
+    padding: 120px 50px 120px 200px;
+    width: 50%;
+    background-color: rgb(223, 221, 221);
+}
+.course_title_left{
+    text-align-last: left;
+}
+
+.course_main_visual_left{
+    width: 50%;
+}
+
+.course_title_right{
+    text-align: left;
+    padding-bottom: 40px;
+}
 
 /*  NEWS    */
 .news_title{
@@ -150,7 +191,7 @@ h2{
     display:block;
     width: 300px;
     height: 60px;
-    background-color: orange;
+    background-color: #ffc107;
     color:#fff;
     font-size: 18px;
     text-align: center;
@@ -208,7 +249,7 @@ h2{
     FOOTER
 ***************/
 .footer_wrapper{
-    width: 1366px;
+    width: 100%;
     background-color: #707070;
     margin: auto;
     padding-top: 30px;
