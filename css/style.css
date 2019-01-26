@@ -25,15 +25,10 @@ nav ul{
     background-color: #fff;
 }
 
-.btn-toggle-nav{
-
-}
-
 .logo{
     margin: 0 30px;
     padding-top: 5px;
 }
-
 /*******MAIN IMAGE*******/
 
 .main-visual{
@@ -141,6 +136,10 @@ h2{
 }
 
 /*  NEWS    */
+.news_img:hover{
+    opacity: 0.5;
+}
+
 .news_title{
     font-size: 24px;
     margin-top: 60px;
