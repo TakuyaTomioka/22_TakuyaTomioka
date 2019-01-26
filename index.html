@@ -190,15 +190,15 @@
             <form action="#" method="POST"> 
                 <dl class="form_inner">
                     <dt class="form_title">名前</dt>
-                    <dd class="form_item"><input type="text" name="name"></dd>
+                    <dd class="form_item"><input type="text" name="name" class="box_space"></dd>
                 </dl>
                 <dl class="form_inner">
                     <dt class="form_title">カナ</dt>
-                    <dd class="form_item"><input type="text" name="email"></dd>
+                    <dd class="form_item"><input type="text" name="email" class="box_space"></dd>
                 </dl>
                 <dl class="form_inner">
                     <dt class="form_title">メールアドレス</dt>
-                    <dd class="form_item"><input type="email" name="" id=""></dd>
+                    <dd class="form_item"><input type="email" name="" id="" class="box_space"></dd>
                 </dl>
                 <dl class="form_inner">
                     <dt class="form_title">チーズアカデミーを<br>知ったきっかけ</dt>
@@ -213,18 +213,18 @@
                         </select>
                 </dl>
                 <dl class="form_inner">
-                    <dt class="form_title">志望動機選択肢</dt>
+                    <dt class="form_title check_radio">志望動機選択肢</dt>
                     <dd class="form_item">
                         <!-- valueで送信する値の指定。labelで文字をクリックしてもOKにする -->
-                        <label for="entrepreneur"><input type="radio" name="kind" id="entrepreneur" value="起業をしたい">起業をしたい</label>
-                        <label for="job"><input type="radio" name="kind" id="job" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい</label>
-                        <label for="work"><input type="radio" name="kind" id="work" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</label>
-                        <label for="other"><input type="radio" name="kind" id="other" value="チーズの教養を身につけたい">チーズの教養を身につけたい</label>
+                        <label for="entrepreneur" class="form_label"><input type="radio" name="kind" id="entrepreneur" value="起業をしたい">起業をしたい</label>
+                        <label for="job" class="form_label"><input type="radio" name="kind" id="job" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい</label>
+                        <label for="work" class="form_label"><input type="radio" name="kind" id="work" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</label>
+                        <label for="other" class="form_label"><input type="radio" name="kind" id="other" value="チーズの教養を身につけたい">チーズの教養を身につけたい</label>
                     </dd>
                 </dl>
                 <dl class="form_inner">
                     <dt class="form_title">詳細</dt>
-                    <dd class="form_item"><textarea name="detail" id="" cols="50" rows="10"></textarea></dd>
+                    <dd class="form_item"><textarea name="detail" id="" cols="50" rows="10" class="box_space"></textarea></dd>
                 </dl>
                 <input class="btn submit_arrange" type="submit" value="送信">
             </form>
